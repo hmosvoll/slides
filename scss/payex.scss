@@ -43,7 +43,11 @@ section.has-dark-background {
 	}
 }
 
-
+.payex-logo{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
 // Theme template ------------------------------
 @import "theme/theme";
 // ---------------------------------------------
