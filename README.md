@@ -7,7 +7,8 @@ Guide to create PayEx html presentations with [reveal.js](https://github.com/hak
 -  Go to settings for the repo in GitHub and enable GitHub Pages.
 
 ## Theme Development
-The theme solution?
+Theming is done with SCSS so install SASS globally and compile
+`npm install -g sass`
 `sass scss/payex.scss  css/payex.css`
 
 ## TODO
