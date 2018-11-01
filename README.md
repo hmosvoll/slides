@@ -1,5 +1,5 @@
 # PayEx Slides
-Guide to create PayEx html presentations with [reveal.js](https://github.com/hakimel/reveal.js) and [Github Pages](https://pages.github.com/).
+Guide to create PayEx themed html presentations with [reveal.js](https://github.com/hakimel/reveal.js) and [Github Pages](https://pages.github.com/).
 
 ## How to
 -  Fork repo
@@ -16,6 +16,7 @@ Theming is done with SCSS so install SASS globally and compile
 - `sass scss/payex.scss  css/payex.css`
 
 ## TODO
+- [ ] Slide theme improvements
 - [ ] Fancy SVG slide graphic
 - [x] Rename project to PayEx Slides 
 - [ ] Dark/Light theme
