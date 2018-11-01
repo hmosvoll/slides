@@ -8,7 +8,7 @@ Guide to create PayEx html presentations with [reveal.js](https://github.com/hak
 -  Go to settings for the repo in GitHub and enable GitHub Pages.
 
 ## Keep up with changes
-- Merge the `upstream/master` branch into your to local `master` branch
+- [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
 
 ## Theme Development
 Theming is done with SCSS so install SASS globally and compile
