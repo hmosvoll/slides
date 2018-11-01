@@ -17,6 +17,7 @@ Theming is done with SCSS so install SASS globally and compile
 
 ## TODO
 - [ ] Slide theme improvements
+- [ ] Markdown
 - [ ] Fancy SVG slide graphic
 - [x] Rename project to PayEx Slides 
 - [ ] Dark/Light theme
