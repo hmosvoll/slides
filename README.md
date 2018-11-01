@@ -1,4 +1,4 @@
-# PayEx Presentation
+# PayEx Slides
 Guide to create PayEx html presentations with [reveal.js](https://github.com/hakimel/reveal.js) and [Github Pages](https://pages.github.com/).
 
 ## How to
@@ -14,3 +14,4 @@ Theming is done with SCSS so install SASS globally and compile
 ## TODO
 - Fancy SVG slide graphic
 - Rename project to PayEx Slides?
+  
