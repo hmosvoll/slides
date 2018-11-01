@@ -3,9 +3,12 @@ Guide to create PayEx html presentations with [reveal.js](https://github.com/hak
 
 ## How to
 -  Fork repo
--  Copy/Rename `index.html` to `example.html`
+-  Copy/Rename `example.html` to `index.html`
 -  Make some slides
 -  Go to settings for the repo in GitHub and enable GitHub Pages.
+
+## Keep up with changes
+- F
 
 ## Theme Development
 Theming is done with SCSS so install SASS globally and compile
