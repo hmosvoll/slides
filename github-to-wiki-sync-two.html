@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/payex.css">
+		<title></title>
+	</head>
+	<body>
+		<img class="payex-logo" src="./img/payex-logo-white-30.png">
+		<div class="reveal">
+			<div class="slides">
+				
+<!------------- SLIDES START HERE ------------->
+				<section>
+					<h1>
+						Github to XWiki Sync
+					</h1>
+				</section>
+
+				<section>
+					<h2>
+						Goals
+					</h2>
+					<ul>
+						<li>
+							Post markdown documents to XWiki on change
+						</li>
+						<li>
+							Unnoticeable generated documents
+						</li>
+						<li>
+							Usable for others
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>
+						What we got
+					</h2>
+					<ul>
+						<li>Node app that can post markdown document to local XWiki instance</li>
+						<li>TC Project with VCS</li>
+						<li>Prod XWiki user for service</li>
+                        <li>Sub Wiki for old stuff</li>
+                        <li>Arguments</li>
+					</ul>
+                </section>
+                
+                <section>
+					<h2>
+						Arguments
+					</h2>
+<pre>
+<code style="background-color:#333333;">
+node index.js --user=Admin --password=admin --wiki=http://localhost:8080/xwiki/rest/wikis/xwiki/spaces/Sandbox/pages/
+
+</code></pre>
+                </section>
+
+                <section>
+					<h2>
+						Code
+                    </h2>
+                    <img src="img/github-to-wiki-sync-example.png" />
+                </section>
+
+				<section>
+					<h2>
+						Todo
+					</h2>
+					<ul>
+						<li>Create as NPM Package</li>
+						<li>Use NPM Package in doc repo</li>
+						<li>Read files from repo</li>
+						<li>Change detection (What should be posted to XWiki)</li>
+						<li>Use in TC Build</li>
+						<li>Modification flow (lock it down)</li>
+						<li>Author</li>
+						<li>Attachments</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Questions?</h2>
+				</section>
+
+<!------------- SLIDES STOP HERE ------------->
+				
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+		</script>
+	</body>
+</html>
