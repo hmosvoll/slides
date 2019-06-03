@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/payex.css">
+		<title></title>
+	</head>
+	<body>
+		<img class="payex-logo" src="./img/payex-logo-white-30.png">
+		<div class="reveal">
+			<div class="slides">
+				
+<!------------- SLIDES START HERE ------------->
+				<section>
+					<h1>
+						Github to XWiki Sync
+					</h1>
+				</section>
+
+				<section>
+					<h2>
+						Goals
+					</h2>
+					<ul>
+						<li>
+							Post markdown documents to XWiki on change
+						</li>
+						<li>
+							Unnoticeable generated documents
+						</li>
+						<li>
+							Usable for others
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>
+						What we got
+					</h2>
+					<ul>
+						<li>Node app that can post markdown document to local XWiki instance</li>
+						<li>TC Project with VCS</li>
+						<li>Prod XWiki user for service</li>
+                        <li>Sub Wiki for old stuff</li>
+						<li>Arguments</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>
+						What i've done <small style="display:block; font-size: 12px;">(I'll face myself...)</small>
+					</h2>
+					<ul>
+						<li>Renamed repo (ux-wiki-sync -> xwiki-sync)</li>
+						<li>Created NPM Package (xwiki-sync)</li>
+                        <li>Use package in doc repo</li>
+                        <li>New argument (source)</li>
+						<li>Change detection (What should be posted to XWiki)[in progress]</li>
+					</ul>
+                </section>
+
+				<section>
+					<h2>
+						Todo
+					</h2>
+					<ul>
+                        <li>Change detection (What should be posted to XWiki)[in progress]</li>
+                        <li>Read files from repo </li>
+						<li>NPM BIN/Executable?</li>
+						<li>Use in TC Build (started)</li>
+						<li>Modification flow (lock it down)</li>
+                        <li>Author (Does not work, feature request?) </li>
+                        <li>So you are reading this, nice</li>
+						<li>Attachments</li>
+						<li>Macro test</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Questions?</h2>
+				</section>
+
+<!------------- SLIDES STOP HERE ------------->
+				
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+		</script>
+	</body>
+</html>
